@@ -7,6 +7,6 @@ self.onMessage = function(e) {
         }
     }
     catch(e) {
-
+        console.log("Error");
     }
 };
