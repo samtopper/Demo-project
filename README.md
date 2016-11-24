@@ -8,6 +8,8 @@
 7. replaced document.querySelector() with document.getElementsByClassName() web API call in main.js file.(for class selectors)
 8. Declared some variables outside of its loop, so DOM call is made only once.
 
+visit live here https://samtopper.github.io/frontend-nanodegree-mobile-portfolio/
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
