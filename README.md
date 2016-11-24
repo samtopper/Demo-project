@@ -1,3 +1,15 @@
+##Changes made.
+1. minified all CSS & JS files.
+2. compressed Images.
+3. solved 'render blocking javascript'.
+4. added async attribute to the analytics.js file
+5. modified the code for the pizza resize.
+6. changed document.querySelector() with document.getElementById() web API call in main.js file.(for Id selector)
+7. replaced document.querySelector() with document.getElementsByClassName() web API call in main.js file.(for class selectors)
+8. Declared some variables outside of its loop, so DOM call is made only once.
+
+visit live here https://samtopper.github.io/frontend-nanodegree-mobile-portfolio/
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
@@ -32,7 +44,7 @@ Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
-To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
+To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js.
 
 You might find the FPS Counter/HUD Display useful in Chrome developer tools described here: [Chrome Dev Tools tips-and-tricks](https://developer.chrome.com/devtools/docs/tips-and-tricks).
 
