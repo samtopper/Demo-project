@@ -8,6 +8,10 @@ self.onMessage = function(e) {
         }
     }
     catch(e) {
+<<<<<<< HEAD
         console.log("Error in try block.");
+=======
+        console.log("Error");
+>>>>>>> 29ee9df7874c384ef11c1b33b4ee62bd1186b334
     }
 };

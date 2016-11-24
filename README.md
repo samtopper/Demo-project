@@ -1,5 +1,6 @@
 ##Changes made.
 1. minified all CSS & JS files.
+<<<<<<< HEAD
 2. compressed Images.
 3. solved 'render blocking javascript'.
 4. added async attribute to the analytics.js file
@@ -9,6 +10,14 @@
 8. Declared some variables outside of its loop, so DOM call is made only once.
 
 visit live here https://samtopper.github.io/frontend-nanodegree-mobile-portfolio/
+=======
+2. compressed Images
+3. achieved 95 score on page speed insights by solving 'render blocking javascript'.
+4. added async attribute to the analytics.js file
+5. modified the code for the pizza resize.
+6. tried to add worker.js but need help for clear implementation.
+
+>>>>>>> 29ee9df7874c384ef11c1b33b4ee62bd1186b334
 
 ## Website Performance Optimization portfolio project
 
