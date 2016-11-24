@@ -1,3 +1,12 @@
+##Changes made.
+1. minified all CSS & JS files.
+2. compressed Images
+3. achieved 95 score on page speed insights by solving 'render blocking javascript'.
+4. added async attribute to the analytics.js file
+5. modified the code for the pizza resize.
+6. tried to add worker.js but need help for clear implementation.
+
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
