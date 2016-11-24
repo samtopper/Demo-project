@@ -1,12 +1,13 @@
 self.onMessage = function(e) {
 
     try {
-        for (var i = 0; i < items.length; i++) {
-        var phase = Math.sin((document.body.scrollTop / 1250) + (i % 5));
+        var top = document.body.scrollTop / 1250;       // declaring variables outside the loop, so DOM call is made only once.
+        for (var i = 0, len = items.length, phase; i < len; i++) {
+        phase = Math.sin(top + (i % 5));
         items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
         }
     }
     catch(e) {
-
+        console.log("Error in try block.");
     }
 };
